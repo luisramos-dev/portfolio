@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600&family=Press+Start+2P&display=swap" rel="stylesheet"');
 :root
 {
     --bg-black-900:#f2f2fc;
@@ -20,6 +20,13 @@ body
     line-height: 1.5;
     font-size: 16px;
     font-family: 'Poppins' sans-serif;
+}
+.press-start-2p
+{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5px;
 }
 *
 {
@@ -680,6 +687,26 @@ h3.my-profession
     color: var(--text-black-900);
     text-transform: capitalize;
     margin: 15px 0 5px;
+}
+.contact-info-text {
+    color: var(--skin-color);
+    text-decoration: none;
+}
+
+.contact-info-text:hover {
+    opacity: 0.85;
+    text-decoration: underline;
+}
+.contact .contact-info-item a
+{
+    color: var(--skin-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.contact .contact-info-item a:hover
+{
+    opacity: 0.85;
+    text-decoration: underline;
 }
 .contact .contact-info-item p
 {
